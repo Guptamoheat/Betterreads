@@ -20,9 +20,7 @@ spring:
                 init-query-timeout: 10s
                 
 spring.data.cassandra.ssl: true
-spring:
-  profiles:
-    active: "prod"
+spring.profiles.active: "prod"
             
 
 datadump.location:
