@@ -1,0 +1,43 @@
+
+spring:
+    security:
+        oauth2:
+            client:
+                registration:
+                    github:
+                        client-id:  Iv1.31c528b702874a62
+                        client-secret: 68347591983f678ac2ba36ffb0647972f02e68b2
+    data:
+        cassandra: 
+            keyspace-name: main
+            username: sPFOKPlCDWAmaXWvLayrsAXP
+            password: P_wErHypeS3rbhzT6vfyBb_Ac51ab10Bq7aAZWrdyAvJv9d5QoHewWFnW,ufl+KKZODhiCIvC2YZ0fRALe0vXjpCnNKS_8wkWMTAKi_kJM8YY.olbA7yxmZseOgux+cu
+            schema-action: create-if-not-exists
+            request:
+                timeout: 10s
+            connection:
+                connect-timeout: 10s
+                init-query-timeout: 10s
+                
+spring.data.cassandra.ssl: true
+            
+
+datadump.location:
+    works:   C:/Users/mohit/Downloads/test-works.txt
+    authors: C:/Users/mohit/Downloads/test-authors.txt
+datastax.astra:
+    secure-connect-bundle: secure-connect.zip
+
+spring.main.allow-circular-references: true
+
+astra.db:
+    id: 0447e648-fe02-4f88-86b6-f60b71b4d86c-1
+    keyspace: main
+    region: us-east1
+    application.token: AstraCS:sPFOKPlCDWAmaXWvLayrsAXP:328c1b8d697ba4381afe62851250804ea40a256b51e636a1a3f1b8b6b4fe8a8e
+
+# {
+#   "clientId": "sPFOKPlCDWAmaXWvLayrsAXP",
+#   "secret": "P_wErHypeS3rbhzT6vfyBb_Ac51ab10Bq7aAZWrdyAvJv9d5QoHewWFnW,ufl+KKZODhiCIvC2YZ0fRALe0vXjpCnNKS_8wkWMTAKi_kJM8YY.olbA7yxmZseOgux+cu",
+#   "token": "AstraCS:sPFOKPlCDWAmaXWvLayrsAXP:328c1b8d697ba4381afe62851250804ea40a256b51e636a1a3f1b8b6b4fe8a8e"
+# }
