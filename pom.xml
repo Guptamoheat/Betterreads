@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.mohit</groupId>
-	<artifactId>BetterReads-App</artifactId>
+	<artifactId>BetterReadsApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>BetterReads App</name>
+	<name>BetterReadsApp</name>
 	<description>Better Reads Application</description>
 	<properties>
 		<java.version>17</java.version>
