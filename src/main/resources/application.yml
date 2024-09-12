@@ -26,7 +26,7 @@ datadump.location:
     works:   C:/Users/mohit/Downloads/test-works.txt
     authors: C:/Users/mohit/Downloads/test-authors.txt
 datastax.astra:
-    secure-connect-bundle: secure-connect.zip
+    secure-connect-bundle: src\main\resources\secure-connect.zip
 
 spring.main.allow-circular-references: true
 
