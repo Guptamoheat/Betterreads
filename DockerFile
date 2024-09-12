@@ -3,6 +3,6 @@ COPY . .
 RUN mvn clean package -DskipTests
 
 FROM openjdk:17.0.1-jdk-slim
-COPY --from=build /target/BetterReads-App-0.0.1-SNAPSHOT.jar BetterReads-App.jar
+COPY --from=build /target/BetterReadsApp-0.0.1-SNAPSHOT.jar BetterReadsApp.jar
 EXPOSE 8081
-ENTRYPOINT ["java", "-jar", "BetterReads-App.jar"]
+ENTRYPOINT ["java", "-jar", "BetterReadsApp.jar"]
